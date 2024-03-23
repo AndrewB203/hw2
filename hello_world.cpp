@@ -1,13 +1,12 @@
 #include <iostream>
 #include <string>
 
-using namespace std;
 
 int main()
 {
-	string name; 
-	cout <<"Your name" <<endl;
-	cin>> name;
-	cout<<"Hello world from "<< name << endl;
+	std::string name; // Create variable name
+	std::cout <<"Your name" << std::endl; //Outout messange about your name 
+	std::cin>> name; // input your name 
+	std::cout<<"Hello world from "<< name << std::endl; //Output messange
 	return 0;
 }
